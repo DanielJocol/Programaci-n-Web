@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bases de Datos</title>
+  </head>
+  <style>
+    .justificado {
+      text-align: justify;
+    }
+  </style>
+  <body>
+    <img
+      src="Imagenes/cabecera.jpeg"
+      alt="Imagen destacada"
+      style="width: 100%; height: 200px; object-fit: cover; display: block"
+    />
+
+    <h1>Bases de Datos</h1>
+
+    <p class="justificado">
+      Las bases de datos son sistemas organizados para almacenar, recuperar y
+      manejar grandes volúmenes de información de forma eficiente. Permiten la
+      gestión estructurada de datos, facilitando el acceso rápido, la
+      actualización y la integridad de la información. En el ámbito de la
+      ingeniería en sistemas, el manejo adecuado de bases de datos es
+      fundamental para desarrollar aplicaciones robustas que requieren
+      manipulación de datos persistentes.
+    </p>
+
+    <img src = "Imagenes/concepto.jpg" width="250">
+
+    <p class="justificado">
+      El modelo relacional es el paradigma más popular y ampliamente usado,
+      donde los datos se organizan en tablas bidimensionales formadas por filas
+      y columnas. Cada tabla representa una entidad o concepto y las relaciones
+      entre tablas se establecen mediante claves primarias y foráneas. El
+      lenguaje SQL (Structured Query Language) es el estándar para crear,
+      consultar y administrar bases de datos relacionales, permitiendo desde
+      simples consultas hasta complejas operaciones de manipulación de datos.
+    </p>
+      La fase de diseño es crucial para garantizar un sistema eficiente y fácil
+      de mantener. Para esto se utiliza el modelo Entidad-Relación (ER), una
+      representación gráfica que facilita la comprensión y comunicación de las
+      estructuras y relaciones entre los datos. Las entidades representan
+      objetos o conceptos reales, los atributos describen sus características y
+      las relaciones definen cómo interactúan las entidades entre sí. Este
+      modelo es la base para crear el esquema lógico de la base de datos.
+    </p>
+
+    <p>Ejemplo de un modelo entidad relación.</p>
+    <img src = "Imagenes/ModeloER.png" width="500">
+
+    <p class="justificado">
+      Además, la normalización es un proceso esencial para optimizar el diseño
+      eliminando redundancias y evitando inconsistencias en los datos. Se
+      realiza mediante diversas formas normales, que aplican reglas para
+      distribuir atributos entre tablas de manera lógica y ordenada. Esto mejora
+      la integridad de los datos y la eficiencia en las consultas.
+    </p>
+
+    <img src = "Imagenes/normal.png" width="300">
+
+    <p class="justificado">
+      Otro aspecto fundamental es el manejo de transacciones, que garantiza que
+      múltiples operaciones en la base de datos se realicen de forma completa y
+      consistente, incluso en presencia de fallos. Las propiedades ACID
+      (Atomicidad, Consistencia, Aislamiento y Durabilidad) aseguran que las
+      transacciones sean confiables, evitando pérdidas o corrupciones de datos.
+    </p>
+   
+    <img src = "Imagenes/acid.jpg" width="400">
+   
+    <h2>Ejemplo de tabla: Registro de alumnos</h2>
+
+    <table border="1" cellpadding="5" cellspacing="0">
+      <thead>
+        <tr>
+          <th>ID Alumno</th>
+          <th>Nombre</th>
+          <th>Carrera</th>
+          <th>Año Ingreso</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>Juan Pérez</td>
+          <td>Ingeniería en Sistemas</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>María López</td>
+          <td>Ingeniería en Sistemas</td>
+          <td>2021</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><a href="../index.html">Volver al inicio</a></p>
+  </body>
+  <footer>
+      <hr />
+      <p>
+        Autor: Herbert Daniel Jocol Morataya<br />
+        Carnet: 9490-22-423<br />
+        Sección B
+      </p>
+    </footer>
+</html>
