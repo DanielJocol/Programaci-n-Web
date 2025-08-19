@@ -1,0 +1,22 @@
+.itinerario-table {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#comentarios-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 280px;
+  margin-bottom: 1rem;
+}
+
+
+#imagenEncabezado img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
